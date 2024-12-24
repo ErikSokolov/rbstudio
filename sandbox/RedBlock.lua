@@ -16,5 +16,7 @@ while true do
 		RedBrick.BrickColor = BrickColor.new("Bright red")	
 	end
 
+	RedBrick.Size = RedBrick.Size + Vector3.new(1,1,1)
+
 
 end
