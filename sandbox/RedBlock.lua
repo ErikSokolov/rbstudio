@@ -9,7 +9,7 @@ RedBrick.Position = Vector3.new(1,10,1)
 
 
 while true do
-	wait(5)
+	wait(1)
 
 	if RedBrick.BrickColor == BrickColor.new("Bright red") then
 		RedBrick.BrickColor = BrickColor.new("Bright blue")
@@ -17,7 +17,8 @@ while true do
 		RedBrick.BrickColor = BrickColor.new("Bright red")	
 	end
 
-	RedBrick.Size = RedBrick.Size + Vector3.new(1,1,1)
+	-- RedBrick.Size = RedBrick.Size + Vector3.new(1,1,1)
+	RedBrick.Position = RedBrick.Position + Vector3.new(0,0,5)
 
 
 end
