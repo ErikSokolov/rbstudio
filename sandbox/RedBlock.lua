@@ -5,6 +5,7 @@ RedBrick.Parent = game.Workspace
 RedBrick.BrickColor = BrickColor.new("Bright red")
 RedBrick.Size = Vector3.new(2,2,2)
 RedBrick.Position = Vector3.new(1,10,1)
+part.Anchored = true
 
 
 
@@ -19,6 +20,7 @@ while true do
 
 	-- RedBrick.Size = RedBrick.Size + Vector3.new(1,1,1)
 	RedBrick.Position = RedBrick.Position + Vector3.new(0,2,0)
+
 
 
 end
