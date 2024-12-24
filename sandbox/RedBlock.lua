@@ -3,7 +3,7 @@ RedBrick = Instance.new("Part")
 RedBrick.Parent = game.Workspace
 
 RedBrick.BrickColor = BrickColor.new("Bright red")
-RedBrick.Size = Vector3.new(0,0,0)
+RedBrick.Size = Vector3.new(2,2,2)
 
 if RedBrick.BrickColor == BrickColor.new("Bright red") then
 	wait(3)
@@ -15,5 +15,5 @@ end
 
 while True do
 	wait(0.1)
-	RedBrick.Size =RedBrick.Size + Vector3.new(increment, increment, increment)
+	RedBrick.Size = RedBrick.Size + Vector3.new(increment, increment, increment)
 end
