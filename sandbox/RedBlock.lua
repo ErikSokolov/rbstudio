@@ -7,7 +7,7 @@ RedBrick.Size = Vector3.new(2,2,2)
 
 
 
-while True do
+while true do
 	wait(0.1)
 	RedBrick.Size = RedBrick.Size + Vector3.new(increment, increment, increment)
 
