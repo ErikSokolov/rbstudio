@@ -5,8 +5,7 @@ RedBrick.Parent = game.Workspace
 RedBrick.BrickColor = BrickColor.new("Bright red")
 RedBrick.Size = Vector3.new(2,2,2)
 RedBrick.Position = Vector3.new(1,10,1)
-part.Anchored = true
-
+RedBrick.CustomPhysicalProperties = PhysicalProperties.new(0,0,0)
 
 
 while true do
