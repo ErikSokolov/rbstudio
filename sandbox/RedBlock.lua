@@ -6,7 +6,7 @@ RedBrick.BrickColor = BrickColor.new("Bright red")
 
 if RedBrick.BrickColor == BrickColor.new("Bright red") then
 	wait(3)
-	BrickColor.new("Bright red") = BrickColor.new("Bright blue")
+	RedBrick.BrickColor = BrickColor.new("Bright blue")
 else
 	print("bar")
 end
