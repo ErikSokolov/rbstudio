@@ -5,7 +5,8 @@ RedBrick.Parent = game.Workspace
 RedBrick.BrickColor = BrickColor.new("Bright red")
 
 if RedBrick.BrickColor == BrickColor.new("Bright red") then
-	print("foo")
+	wait(3)
+	BrickColor.new("Bright red") = BrickColor.new("Bright blue")
 else
 	print("bar")
 end
