@@ -13,7 +13,7 @@ while true do
 	if RedBrick.BrickColor == BrickColor.new("Bright red") then
 		RedBrick.BrickColor = BrickColor.new("Bright blue")
 	else
-		RedBrick.BrickColor == BrickColor.new("Bright red")	
+		RedBrick.BrickColor = BrickColor.new("Bright red")	
 	end
 
 
