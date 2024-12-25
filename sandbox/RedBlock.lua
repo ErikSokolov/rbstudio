@@ -17,7 +17,7 @@ while true do
 		RedBrick.BrickColor = BrickColor.new("Bright red")	
 	end
 
-	RedBrick.CFrame = RedBrick.CFrame * CFrame.Angles(1,1,math.rad(10))
+	RedBrick.CFrame = RedBrick.CFrame * CFrame.Angles(0,0,math.rad(10))
 
 
 
