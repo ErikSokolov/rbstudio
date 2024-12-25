@@ -17,7 +17,8 @@ while true do
 	end
 
 	-- RedBrick.Size = RedBrick.Size + Vector3.new(1,1,1)
-	RedBrick.Position = RedBrick.Position + Vector3.new(0,0,2)
+	--RedBrick.Position = RedBrick.Position + Vector3.new(0,0,2)
+	RedBrick.Rotation = RedBrick.Rotation + Vector.new(0,30,0)
 
 
 
