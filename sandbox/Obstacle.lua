@@ -8,6 +8,6 @@ Obst.Anchored = true
 
 while true do
 	task.wait(5)
-	Obst.Position = Obst.Position +  Vector3.new(80,0,0)
+	Obst.Position = Obst.Position +  Vector3.new(-80,0,0)
 end
 
