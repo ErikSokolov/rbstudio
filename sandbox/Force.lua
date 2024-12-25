@@ -19,7 +19,7 @@ end)
 
 while true do
 	task.wait(0.01)
-	vorce.Position = vorce.Position + Vector3.new(-0.25,0,0)
+	vorce.Position = vorce.Position + Vector3.new(-0.26,0,0)
 end
 
 	
