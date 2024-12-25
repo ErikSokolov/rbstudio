@@ -13,10 +13,11 @@ while true do
 	vorce.Position = vorce.Position + Vector3.new(-0.25,0,0)
 end
 
-vorce.Touched:Connect(function(hit)
-	if hit.Parent:FindFirstChild("Humanoid") then
-		hit.Parent.Humanoid.Health = 0
+vorce.Touched:Connect(function(touchPart)
+	local humanoid = touchPart.Parent:FindFirstChild("Humanoid")
+
+	if humanoid then
+		humanoid.Health = 0
 	end
 end)
-
 	
