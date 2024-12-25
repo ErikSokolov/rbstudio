@@ -9,7 +9,7 @@ RedBrick.Anchored = true
 
 
 while true do
-	wait(0.3)
+	task.wait(0.1)
 
 	if RedBrick.BrickColor == BrickColor.new("Bright red") then
 		RedBrick.BrickColor = BrickColor.new("Bright blue")
@@ -17,7 +17,7 @@ while true do
 		RedBrick.BrickColor = BrickColor.new("Bright red")	
 	end
 
-	RedBrick.CFrame = RedBrick.CFrame * CFrame.Angles(0,math.rad(22),0)
+	RedBrick.CFrame = RedBrick.CFrame * CFrame.Angles(0,math.rad(2),0)
 
 
 
