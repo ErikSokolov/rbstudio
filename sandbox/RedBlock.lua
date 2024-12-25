@@ -18,7 +18,7 @@ while true do
 
 	-- RedBrick.Size = RedBrick.Size + Vector3.new(1,1,1)
 	--RedBrick.Position = RedBrick.Position + Vector3.new(0,0,2)
-	RedBrick.Rotation = RedBrick.Rotation + Vector.new(0,30,0)
+	RedBrick.CFrame = RedBrick.CFrame * CFrame.Angles(0, math.rad(30),0)
 
 
 
