@@ -1,4 +1,3 @@
---The purpose of this file is to setup rbstudio quickly
 RedBrick = Instance.new("Part")
 RedBrick.Parent = game.Workspace
 
@@ -24,3 +23,11 @@ while true do
 
 
 end
+
+BlueWall = Instance.new("Part")
+blueWall.Parent = game.Workspace
+
+BlueWall.BrickColor = BrickColor.new("Bright blue")
+BlueWall.Size = Vector3.new(5,7,1)
+BlueWall.Position = Vector3.new(5,0,5)
+BlueWall.Anchored = true
