@@ -1,7 +1,8 @@
-BlueWall = Instance.new("Part")
-BlueWall.Parent = game.Workspace
+GreenWall = Instance.new("Part")
+GreenWall.Parent = game.Workspace
 
-BlueWall.BrickColor = BrickColor.new("Bright blue")
-BlueWall.Size = Vector3.new(99,9,0.5)
-BlueWall.Position = Vector3.new(5,0,5)
-BlueWall.Anchored = true
+GreenWall.BrickColor = BrickColor.new("Bright green")
+GreenWall.Size = Vector3.new(1099,5009,0.2)
+GreenWall.Position = Vector3.new(25,0,25)
+GreenWall.Anchored = true
+
