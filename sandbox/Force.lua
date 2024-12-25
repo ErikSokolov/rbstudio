@@ -1,7 +1,7 @@
 vorce = Instance.new("Part")
 vorce.Parent = game.Workspace
 
-vorce.BrickColor = Brickcolor.new("Bright red")
+vorce.BrickColor = BrickColor.new("Bright red")
 vorce.size = Vector3.new(1000, 5000, 3)
 vorce.Position = Vector3.new(5,0,5)
 vorce.Anchored = true
