@@ -13,7 +13,7 @@ while true do
 	if RedBrick.CastShadow == true then
 		RedBrick.CastShadow = false 
 	else
-		RedBrick.CastShadow == true	
+		RedBrick.CastShadow = true	
 	end
 
 	RedBrick.CFrame = RedBrick.CFrame * CFrame.Angles(0,math.rad(2),0)
