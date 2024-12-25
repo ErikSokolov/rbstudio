@@ -12,3 +12,11 @@ while true do
 	task.wait(0.01)
 	vorce.Position = vorce.Position + Vector3.new(-0.25,0,0)
 end
+
+vorce.Touched:Connect(function(hit)
+	if hit.Parent:FindFirstChild("Humanoid") then
+		hit.Parent.Humanoid.Health = 0
+	end
+end)
+
+	
