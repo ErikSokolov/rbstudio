@@ -8,11 +8,6 @@ vorce.Anchored = true
 vorce.CFrame = vorce.CFrame * CFrame.Angles(0, math.rad(90),0)
 vorce.CastShadow = false
 
-while true do
-	task.wait(0.01)
-	vorce.Position = vorce.Position + Vector3.new(-0.25,0,0)
-end
-
 vorce.Touched:Connect(function(touchPart)
 	local humanoid = touchPart.Parent:FindFirstChild("Humanoid")
 
@@ -20,4 +15,11 @@ vorce.Touched:Connect(function(touchPart)
 		humanoid.Health = 0
 	end
 end)
+
+
+while true do
+	task.wait(0.01)
+	vorce.Position = vorce.Position + Vector3.new(-0.25,0,0)
+end
+
 	
