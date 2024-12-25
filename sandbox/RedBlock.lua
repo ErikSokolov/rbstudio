@@ -25,7 +25,7 @@ while true do
 end
 
 BlueWall = Instance.new("Part")
-blueWall.Parent = game.Workspace
+BlueWall.Parent = game.Workspace
 
 BlueWall.BrickColor = BrickColor.new("Bright blue")
 BlueWall.Size = Vector3.new(5,7,1)
