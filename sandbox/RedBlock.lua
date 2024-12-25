@@ -4,8 +4,8 @@ RedBrick.Parent = game.Workspace
 
 RedBrick.BrickColor = BrickColor.new("Bright red")
 RedBrick.Size = Vector3.new(2,2,2)
-RedBrick.Position = Vector3.new(0,30,0)
-RedBrick.Anchored = false
+RedBrick.Position = Vector3.new(0,10,0)
+RedBrick.Anchored = true 
 
 
 while true do
@@ -17,8 +17,6 @@ while true do
 		RedBrick.BrickColor = BrickColor.new("Bright red")	
 	end
 
-	-- RedBrick.Size = RedBrick.Size + Vector3.new(1,1,1)
-	--RedBrick.Position = RedBrick.Position + Vector3.new(0,0,2)
 	RedBrick.CFrame = RedBrick.CFrame * CFrame.Angles(1,1,math.rad(10))
 
 
