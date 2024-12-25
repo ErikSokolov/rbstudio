@@ -7,7 +7,7 @@ Obst.Position = Vector3.new(-10,11,0)
 Obst.Anchored = true
 
 while true do
-	task.wait(math.random(1,2))
-	Obst.Position = Obst.Position + Vector3.new(math.random(-7,-4),0,0)
+	task.wait(10)
+	Obst.Position = Obst.Position * Vector3.new(2,1,1)
 end
 
