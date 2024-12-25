@@ -9,7 +9,7 @@ RedBrick.Anchored = true
 
 
 while true do
-	wait(0.5)
+	wait(0.1)
 
 	if RedBrick.BrickColor == BrickColor.new("Bright red") then
 		RedBrick.BrickColor = BrickColor.new("Bright blue")
