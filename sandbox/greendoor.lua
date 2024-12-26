@@ -9,14 +9,14 @@ waiter = 0.01
 
 while true do
 	while i < maxx do 
-		greenwall.Position = greenwall.Position + Vector3.new(2,0,0)
+		greenwall.Position = greenwall.Position + Vector3.new(0.5,0,0)
 		task.wait(waiter)
 		i = i + 1
 	end
 
 	if i == maxx then
 		while i > 0 do
-			greenwall.Position = greenwall.Position + Vector3.new(-2,0,0)
+			greenwall.Position = greenwall.Position + Vector3.new(-0.5,0,0)
 			task.wait(waiter)
 			i = i - 1
 		end
