@@ -7,7 +7,7 @@ maxx = 10
 waiter = 0.3
 
 
-while True do
+while true do
 	while i < maxx do 
 		redwall.Position = redwall.Position + Vector3.new(-2,0,0)
 		task.wait(waiter)
