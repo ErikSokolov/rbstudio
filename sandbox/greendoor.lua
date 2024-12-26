@@ -4,7 +4,7 @@ greenwall = script.Parent
 greenwall.BrickColor = BrickColor.new("Dark green")
 i=0
 maxx = 10
-waiter = 0.3
+waiter = 0.01
 
 
 while true do

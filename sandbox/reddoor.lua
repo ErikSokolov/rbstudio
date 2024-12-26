@@ -4,7 +4,7 @@ redwall= script.Parent
 redwall.BrickColor = BrickColor.new("Dark red")
 i=0
 maxx = 10
-waiter = 0.3
+waiter = 0.01
 
 
 while true do
