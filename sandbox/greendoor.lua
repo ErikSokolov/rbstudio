@@ -5,6 +5,7 @@ greenwall.BrickColor = BrickColor.new("Dark green")
 i=0
 maxx = 10
 waiter = 0.1
+greenwall.anchored = true
 
 
 while true do

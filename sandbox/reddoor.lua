@@ -5,6 +5,7 @@ redwall.BrickColor = BrickColor.new("Dark red")
 i=0
 maxx = 10
 waiter = 0.1
+redwall.anchored = true
 
 
 while true do
