@@ -1,5 +1,9 @@
-Cow = Instance.new("Part")
-Cow.Parent = game.Workspace
+cow = script.Parent
 
-Cow.BrickColor = BrickColor.new("Black")
-Cow.Size = Vector3.new(10, 2, 5)
+cow.Position = Vector3.new(0,10,0)
+cow.Anchored = true
+
+while true do
+	cow.Position = cow.Position + Vector3.new(0.5,0,0)
+	task.wait(0.1)
+end
