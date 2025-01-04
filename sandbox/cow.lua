@@ -1,4 +1,4 @@
-Cow = new.Instance("Part")
+Cow = Instance.new("Part")
 Cow.Parent = game.Workspace
 
 Cow.BlockColor = BlockColor.new("Black")
